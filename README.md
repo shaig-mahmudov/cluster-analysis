@@ -1,10 +1,10 @@
-# 🏦 Bank Müştərilərinin Kredit Ödəmə Qabiliyyətinə Görə Klasterləşdirilməsi
+# Bank Müştərilərinin Kredit Ödəmə Qabiliyyətinə Görə Klasterləşdirilməsi
 
 Bu repozitoriya bank müştərilərinin kredit ödəmə qabiliyyətini və maliyyə davranışlarını təhlil edərək onları **Nəzarətsiz Maşın Öyrənməsi (*Unsupervised Machine Learning*)** metodları vasitəsilə seqmentlərə (klasterlərə) ayıran və hər seqment üçün kredit siyasəti tövsiyələri çıxaran tam işlək Jupyter Notebook ([`bank_customer_clustering.ipynb`](./bank_customer_clustering.ipynb)) layihəsini əhatə edir.
 
 ---
 
-## 📂 Layihənin Strukturu və Metodoloji Mərhələlər
+## Layihənin Strukturu və Metodoloji Mərhələlər
 
 1. **Məlumatın Hazırlanması (*Data Simulation & Preprocessing*):**
    - Bank domeni üçün 1,600 müştəridən ibarət realist sintetik datasetin (`Musteri_ID`, `Ayliq_Gelir`, `Cari_Borc`, `Borc_Gelir_Nisbeti` (DTI), `Gecikme_Gun_Sayi`, `Kredit_Xetti_Sayi`, `Kredit_Skoru_FICO`, `Ayliq_Xerc`) yaradılması.
@@ -26,7 +26,7 @@ Bu repozitoriya bank müştərilərinin kredit ödəmə qabiliyyətini və maliy
 
 ---
 
-## 📊 Klasterlərin Yekun Biznes Profili
+## Klasterlərin Yekun Biznes Profili
 
 | Klaster | Bank Risk Statusu | Orta Gəlir (AZN) | Orta Cari Borc (AZN) | DTI (%) | Orta Gecikmə (Gün) | Orta FICO | Kredit Siyasəti |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
